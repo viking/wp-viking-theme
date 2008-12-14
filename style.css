@@ -53,7 +53,7 @@ body {
   top: 2em;
   left: 0;
   color: white;
-  width: 59em;
+  width: 56em;
   height: 5.5em;
   background: #c12d11 url(images/hf.gif) repeat-x top;
 }
@@ -79,10 +79,10 @@ body {
   background-color: #28a07d;
   background-repeat: repeat-x;
   background-position: top;
-  left: 2.5em;
+  left: 1em;
   position: absolute;
   top: 6.5em;
-  width: 54em;
+  width: 52.5em;
 }
 #quote .inner {
   position: relative;
@@ -105,7 +105,7 @@ body {
   position: absolute;
   top: 2em;
   right: 0;
-  width: 20em;
+  width: 23em;
   text-align: left;
   background: #114a71 url(images/srf.gif) repeat-y right;
 }
@@ -116,24 +116,19 @@ body {
   margin: 0.5em 0 0.3em 0;
   color: white;
 }
-
-#sidebar ul
-{
-  margin: 0 0 0 1em;
+#sidebar ul {
+  margin: 0 1em;
   padding: 0;
   list-style-type: none;
 }
-
 #sidebar ul li {
   font-size: 1.2em;
   color: #ddd;
   line-height: 20px;
 }
-
 #sidebar ul li li:before {
   content: '\00BB \0020';
 }
-
 #sidebar a, #sidebar a:visited {
   color: white;
   text-decoration: none;
@@ -143,7 +138,7 @@ body {
   position: absolute;
   top: 10em;
   left: 0;
-  width: 59em;
+  width: 56em;
   background: #444 url(images/crf.gif) repeat-y right;
 }
 #content .top    { background-image: url(images/ctf.gif); }
