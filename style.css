@@ -79,10 +79,10 @@ body {
   background-color: #28a07d;
   background-repeat: repeat-x;
   background-position: top;
-  left: 1em;
+  left: 1.5em;
   position: absolute;
   top: 6.5em;
-  width: 52.5em;
+  width: 52em;
 }
 #quote .inner {
   position: relative;
