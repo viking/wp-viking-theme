@@ -190,6 +190,7 @@ body {
 }
 #comments, #respond h3 {
   color: white;
+  font-size: 1.4em;
 }
 ol.commentlist {
   list-style-type: none;
