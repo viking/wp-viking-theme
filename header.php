@@ -9,8 +9,8 @@
   <link rel="alternate" type="application/atom+xml" title="<?php bloginfo('name'); ?> Atom Feed" href="<?php bloginfo('atom_url'); ?>" />
   <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
-  <?php wp_enqueue_script('viking-jquery', '/wp-content/themes/viking/js/jquery-1.2.6.min.js' ); ?>
-  <?php wp_enqueue_script('quotes', "/wp-content/themes/viking/js/quotes.js") ?>
+  <?php wp_enqueue_script('viking-jquery', '/wp-content/themes/viking/js/jquery-1.2.6.min.js', false, false); ?>
+  <?php wp_enqueue_script('quotes', "/wp-content/themes/viking/js/quotes.js", false, false) ?>
   <?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 
 <?php wp_head(); ?>

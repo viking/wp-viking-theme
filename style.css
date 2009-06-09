@@ -157,11 +157,14 @@ body {
   margin-top: 0.5em;
 }
 .post { background-image: url(images/helmet.gif); }
-.post a, .post a:visited, .page a, .page a:visited, .comment a, .comment a:visited {
+.post a, .post a:visited,
+.page a, .page a:visited,
+.comment a, .comment a:visited,
+.navigation a, .navigation a:visited {
   color: #81BAE1;
   text-decoration: none;
 }
-.post a:hover, .comment a:hover, .page a:hover {
+.post a:hover, .comment a:hover, .page a:hover, .navigation a:hover {
   color: #e14d31;
   text-decoration: underline;
 }
